@@ -39,12 +39,6 @@
         <span>Користувачі</span></a>
 </li>
 
-<!-- Nav Item - USER CART -->
-<li class="nav-item">
-    <a class="nav-link" href="/admin/cart.php">
-        <span>Кошик користувача</span></a>
-</li>
-
 <!-- Divider -->
 <hr class="sidebar-divider d-none d-md-block">
 
