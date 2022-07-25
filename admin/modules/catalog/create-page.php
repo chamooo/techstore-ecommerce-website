@@ -37,7 +37,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/admin/modules/catalog/create.php');
 
 
             <div class="mb-3">
-
                 <label class="form-label">Категорія:</label> <br>
                 <div class="custom-select">
                     <select name="category_name" id="category_name">
