@@ -1,21 +1,21 @@
 <div class="modal modal_signup">
         <div class="modal__body">
             <div class="modal__content">
-                <h2 class="modal__title">Регистрация</h2>
+                <h2 class="modal__title">Реєстрація</h2>
                 <button class="modal__close img-close">
                     <img src="assets/img/modal/close.svg" alt="close">
                 </button>
                 <form action="#" id="signUp" class="form__body">
                     <div class="form__item">
                         <input id="formName" type="text" name="name" class="form__input">
-                        <label for="formName" class="form__label">Имя</label>
+                        <label for="formName" class="form__label">Ім'я</label>
                         <div class="form__clear">
                             <img src="assets/img/modal/close.svg" alt="close">
                         </div>
                     </div>
                     <div class="form__item">
                         <input id="formPhone" type="tel" name="phone" class="form__input">
-                        <label for="formPhone" class="form__label">Номер телефона</label>
+                        <label for="formPhone" class="form__label">Номер телефону</label>
                         <div class="form__clear">
                             <img src="assets/img/modal/close.svg" alt="close">
                         </div>
@@ -35,15 +35,15 @@
                         </div>
                     </div>
                     <div class="form__item">
-                        <button type="submit" class="form__button form__button_disabled">Зарегистрироваться</button>
+                        <button type="submit" class="form__button form__button_disabled">Зареєструватися</button>
                     </div>
                 </form>
                 <div class="modal__link">
-                    <a href="" class="link-signin">Войти</a>
+                    <a href="" class="link-signin">Увійти</a>
                 </div>
                 <div class="modal__policy">
-                    Регистрируясь, вы соглашаетесь с <br>
-                    <a href="">лицензионным соглашением</a>
+                    Реєструючись, ви погоджуєтеся з <br>
+                    <a href="">ліцензійною угодою</a>
                 </div>
             </div>
         </div>

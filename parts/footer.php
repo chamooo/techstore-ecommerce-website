@@ -16,7 +16,7 @@
 			<button class="call">Замовити дзвінок</button>
 		</div>
 	</footer>
-    <script src="assets/js/script.js" defer></script>
+    
 	
 </body>
 </html>

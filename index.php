@@ -2,8 +2,10 @@
 require('parts/header.php'); 
 ?>
 <?php 
+// require('parts/page.php'); 
 require('parts/modals/registr.php');
 require('parts/modals/error_registr.php');
+require('parts/modals/success_registr.php');
 require('parts/modals/login.php');
 ?>
 
@@ -14,7 +16,7 @@ require('parts/modals/login.php');
         <form method="POST">
             <div class="row">
                 <?php
-                require($_SERVER['DOCUMENT_ROOT'] . '/configs/connect.php');
+                
 
                 $sql = "SELECT catalog.id, product_name, img_src, price FROM catalog
                 JOIN product ON id_product = product.id";
@@ -39,6 +41,6 @@ require('parts/modals/login.php');
 
 
 <?php
-require('parts/footer.php'); 
+// require('parts/footer.php'); 
 
 ?>

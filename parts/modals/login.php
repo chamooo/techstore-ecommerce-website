@@ -4,8 +4,8 @@
                 <button class="modal__close img-close">
                     <img src="assets/img/modal/close.svg" alt="close">
                 </button>
-                <h2 class="modal__title">Вход</h2>
-                <p class="modal__error">Неверный логин или пароль</p>
+                <h2 class="modal__title">Вхід</h2>
+                <p class="modal__error">Невірний логін або пароль</p>
                 <form action="#" id="signIn" class="form__body">
                     <!-- <div class="form__item">
                         <input id="formPhoneLogin" type="tel" name="phone" class="form__input">
@@ -29,12 +29,12 @@
                         </div>
                     </div>
                     <div class="form__item">
-                        <button type="submit" class="form__button form__button_disabled">Войти</button>
+                        <button type="submit" class="form__button form__button_disabled">Увійти</button>
                     </div>
                     
                 </form>
                 <div class="modal__link">
-                        <a href="" class="link-signup">Регистрация</a>
+                        <a href="" class="link-signup">Зареєструватися</a>
                     </div>
             </div>
         </div>

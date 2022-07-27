@@ -9,7 +9,7 @@ if (!empty($_POST)) {
     } else {
         $sql = "INSERT INTO `user` (`username`, `email`,`tel`, `password`) VALUES ('" . $_POST['name'] . "', '" . $_POST['email'] . "', '" . $_POST['phone'] . "', '" . $_POST['password'] . "')";
         if (mysqli_query($conn, $sql)) {
-            echo $_POST['name'];
+            echo '0';
         } else {
             echo "Error: " . $sql . "<br>" . mysqli_error($conn);
         }
