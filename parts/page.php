@@ -1,4 +1,5 @@
-<div class="preview">
+<div class="body-content">
+	<div class="preview">
 		<div class="description">
 			<h1>Яркие гаджеты на любой вкус и день</h1>
 			<p>Мы собрали лучшие гаджеты от лучших брендов, чтобы порадовать вас свежими новинками digital-рынка. </p>
@@ -28,6 +29,7 @@
 				<li>Игрушки</li>
 			</ul>
 		</div>
+		<div class="clearfix"></div>
 		<div class="product-card">
 			<h1>Iphone X</h1>
 			<img src="img/product-img.png">
@@ -228,3 +230,4 @@
 		</div>
 	</div>
 	<div class="clearfix"></div>
+</div>
