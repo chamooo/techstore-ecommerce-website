@@ -1,11 +1,11 @@
 <div class="modal modal_signup">
         <div class="modal__body">
             <div class="modal__content">
+                <h2 class="modal__title">Регистрация</h2>
                 <button class="modal__close img-close">
                     <img src="assets/img/modal/close.svg" alt="close">
                 </button>
                 <form action="#" id="signUp" class="form__body">
-                    <h2 class="form__title">Регистрация</h2>
                     <div class="form__item">
                         <input id="formName" type="text" name="name" class="form__input">
                         <label for="formName" class="form__label">Имя</label>
@@ -35,18 +35,16 @@
                         </div>
                     </div>
                     <div class="form__item">
-                        <button type="submit" class="form__button">Зарегистрироваться</button>
-                    </div>
-                    <div class="form__item">
-                        <a href="" class="form__link" id="link-signin">Войти</a>
-                    </div>
-                    <div class="form__item">
-                        <div class="form__policy">
-                            Регистрируясь, вы соглашаетесь с <br>
-                            <a href="">лицензионным соглашением</a>
-                        </div>
+                        <button type="submit" class="form__button form__button_disabled">Зарегистрироваться</button>
                     </div>
                 </form>
+                <div class="modal__link">
+                    <a href="" class="link-signin">Войти</a>
+                </div>
+                <div class="modal__policy">
+                    Регистрируясь, вы соглашаетесь с <br>
+                    <a href="">лицензионным соглашением</a>
+                </div>
             </div>
         </div>
     </div>
