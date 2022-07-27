@@ -41,6 +41,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 body {
 	font-family: 'Montserrat';
 	font-style: normal;
+	padding-top: 150px;
 }
 
 .clearfix:after {
@@ -70,7 +71,7 @@ body {
 }
 
 .container {
-	max-width: 1144px;
+	max-width: 1250px;
 	padding: 0px 15px;
     margin: 0px auto;
     box-sizing: content-box;
@@ -637,21 +638,16 @@ body {
 		FOOTER
 ------------------------- */
 
-.content { 
-	width: 1150px;
-	height: 80px;
-	margin: 150px auto;
-}
-
 footer {
+	padding: 60px 0;
 	margin-top: 10px;
-	display: inline-block;
 	background: #343A62;
-	width: 100%;
-	height: 310px;
 	color: white;
 }
-
+.footer-content {
+	display: flex;
+	justify-content: center;
+}
 footer .logo {
 	display: block;
 	height: 35px;
@@ -692,9 +688,8 @@ footer .nav ul {
 footer .nav li {
 	font-weight: 400;
 	font-size: 12px;
-	line-height: 15px;
+	line-height: 30px;
 	/* identical to box height */
-	text-align: center;
 	float: left;
 	margin-right: 30px;
 }
@@ -707,8 +702,7 @@ footer .phone {
 	margin-left: 50px;
 	font-weight: 700;
 	font-size: 13px;
-	line-height: 16px;
-
+	line-height: 30px;
 	float: left;
 }
 
@@ -716,16 +710,13 @@ footer button.call {
 	width: 130px;
 	height: 30px;
 	border: solid 1px #EB2D66;
-
 	font-weight: 700;
 	font-size: 11px;
 	line-height: 13px;
 	text-align: center;
-
 	color: #EB2D66;
 	background: none;
-
 	float: left;
-	margin-left: 37px;
-	margin-top: -5px;
+	margin-left: 40px;
+
 }

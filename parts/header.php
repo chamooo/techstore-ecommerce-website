@@ -4,35 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/media.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/media.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/cart.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="assets/js/script.js" defer></script>
     <title>Online Store</title>
 </head>
 <body>
 <header class="header">
         <div class="header__container container">
             <div class="header__logo">
-                <img src="assets/img/header/logo.svg">
-                <div class="header__label">
-                    <h3>Гаджетариум</h3>
-                    <h5>Магазин цифровых решений</h5>
-                </div>
+                <a href="../index.php" style="text-decoration: none; color: #000;">
+                    <img src="/assets/img/header/logo.svg">
+                    <div class="header__label">
+                        <h3>Гаджетаріум</h3>
+                        <h5>Магазин цифрових рішень</h5>
+                    </div>
+                </a>
             </div>
             <nav class="header__nav">
                 <ul>
                     <li>
-                        <a href="">Телефоны</a>
+                        <a href="">Телефони</a>
                     </li>
                     <li>
-                        <a href="">Планшеты</a>
+                        <a href="">Планшети</a>
                     </li>
                     <li>
-                        <a href="">Дроны</a>
-                    </li>
-                    <li>
-                        <a href="">Игрушки</a>
+                        <a href="">Ноутбуки</a>
                     </li>
                     <li>
                         <a href="">
@@ -54,14 +53,18 @@
                     <path id="XMLID_795_" d="M142.75,155.5c-63.411,0-115,51.589-115,115c0,8.284,6.716,15,15,15h200c8.284,0,15-6.716,15-15
                         C257.75,207.089,206.161,155.5,142.75,155.5z M59.075,255.5c7.106-39.739,41.923-70,83.675-70s76.569,30.261,83.675,70H59.075z"/>
                 </svg>
-                <span>Войти</span>
+                <span>Вхід</span>
             </button>
             <div class="header__cart">
-                <a href="">
+                <a href="/cart/cart.php">
                     <img src="assets/img/header/shopping-cart.svg">
                 </a>
                 <div>
-                    <p><span>4,896</span> грн.</p>
+                    <?php
+                    // include_once($_SERVER['DOCUMENT_ROOT'] . '/cart/cart.php') 
+                    ?>
+                   
+                    <p><span> <?= $sum['SUM(price)'] ?> </span> грн.</p>
                     <p class="arrow-drop"></p>
                 </div>
             </div>
