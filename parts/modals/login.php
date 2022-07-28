@@ -4,36 +4,38 @@
                 <button class="modal__close img-close">
                     <img src="assets/img/modal/close.svg" alt="close">
                 </button>
+                <h2 class="modal__title">Вход</h2>
+                <p class="modal__error">Неверный логин или пароль</p>
                 <form action="#" id="signIn" class="form__body">
-                    <h2 class="form__title">Вход</h2>
                     <!-- <div class="form__item">
-                        <input id="formPhone" type="tel" name="phone" class="form__input">
-                        <label for="formPhone" class="form__label">Номер телефона</label>
+                        <input id="formPhoneLogin" type="tel" name="phone" class="form__input">
+                        <label for="formPhoneLogin" class="form__label">Номер телефона</label>
                         <div class="form__clear">
                             <img src="assets/img/modal/close.svg" alt="close">
                         </div>
                     </div> -->
                     <div class="form__item">
-                        <input id="formEmail" type="email" name="email" class="form__input">
-                        <label for="formEmail" class="form__label">Email</label>
+                        <input id="formEmailLogin" type="email" name="email" class="form__input">
+                        <label for="formEmailLogin" class="form__label">Email</label>
                         <div class="form__clear">
                             <img src="assets/img/modal/close.svg" alt="close">
                         </div>
                     </div>
                     <div class="form__item">
-                        <input id="formPassword" type="password" name="password" class="form__input">
-                        <label for="formPassword" class="form__label">Пароль</label>
+                        <input id="formPasswordLogin" type="password" name="password" class="form__input">
+                        <label for="formPasswordLogin" class="form__label">Пароль</label>
                         <div class="form__clear">
                             <img src="assets/img/modal/close.svg" alt="close">
                         </div>
                     </div>
                     <div class="form__item">
-                        <button type="submit" class="form__button ">Войти</button>
+                        <button type="submit" class="form__button form__button_disabled">Войти</button>
                     </div>
-                    <div class="form__item">
-                        <a href="" class="form__link" id="link-signup">Регистрация</a>
-                    </div>
+                    
                 </form>
+                <div class="modal__link">
+                        <a href="" class="link-signup">Регистрация</a>
+                    </div>
             </div>
         </div>
     </div>

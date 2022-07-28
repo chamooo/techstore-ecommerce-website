@@ -13,7 +13,7 @@ if (!empty($_POST)) {
         echo $user['username'];
     }
 
-    
+    mysqli_close($conn);
 }
 
 ?>

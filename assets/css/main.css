@@ -243,30 +243,47 @@ body {
     opacity: 0;
     transition: all 0.8s ease 0s;
     transform: translate(0px, -100%);
+	background-color: #fff;
+	min-width: 350px;
+    color: #2A2D46;
+    padding: 45px 25px 30px 25px;
+    border-radius: 5px;
+}
+.modal__title {
+    font-size: 24px;
+    line-height: 125%;
+    text-align: center;
+    margin: 0 0 25px 0;
+}
+.modal__error {
+	text-align: center;
+	color: #EB2D66;
+	margin: 0 0 20px 0;
+	display: none;
 }
 .modal__close {
     position: absolute;
     right: 20px;
     top: 20px;
     width: 16px;
-    background-color: #fff;
+}
+.modal__link {
+    color: inherit;
+	text-align: center;
+	margin: 0 0 25px 0;
+}
+.modal__link:hover {
+    color: #EB2D66;
+}
+.modal__policy {
+    font-size: 12px;
+    line-height: 133%;
+	text-align: center;
+}
+.modal__policy a:hover {
+    color: #EB2D66;
 }
 
-
-
-.form__body {
-    min-width: 350px;
-    background-color: #fff;
-    color: #2A2D46;
-    padding: 30px 25px;
-    border-radius: 5px;
-}
-.form__title {
-    font-size: 24px;
-    line-height: 125%;
-    text-align: center;
-    margin: 0 0 25px 0;
-}
 .form__item {
     margin: 0 0 25px 0;
     position: relative;
@@ -281,6 +298,7 @@ body {
     left: 10px;
     padding: 0 5px;
     transition: all 0.3s ease 0s;
+	cursor: text;
 }
 .form__clear {
     position: absolute;
@@ -336,19 +354,7 @@ body {
     opacity: 0.3;
     pointer-events: none;
 }
-.form__link {
-    color: inherit;
-}
-.form__link:hover {
-    color: #EB2D66;
-}
-.form__policy {
-    font-size: 12px;
-    line-height: 133%;
-}
-.form__policy a:hover {
-    color: #EB2D66;
-}
+
 
 /* -----------------------------
         PREVIEW
