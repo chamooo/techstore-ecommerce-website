@@ -10,7 +10,10 @@ if (!empty($_POST)) {
     
     if($user) {
         $_SESSION["user_id"] = $user['id'];
-        echo $user['username'];
+        echo json_encode($user);
+        
+    } else {
+        echo '0';
     }
 
     mysqli_close($conn);

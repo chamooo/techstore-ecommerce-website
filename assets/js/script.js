@@ -1,10 +1,19 @@
 $(function(){
 
+    let isMobile = {
+        Android: function() {return navigator.userAgent.match(/Android/i);},
+        BlackBerry: function() {return navigator.userAgent.match(/BlackBerry/i);},
+        iOS: function() {return navigator.userAgent.match(/iPhone|iPad|iPod/i);},
+        Opera: function() {return navigator.userAgent.match(/Opera Mini/i);},
+        Windows: function() {return navigator.userAgent.match(/IEMobile/i);},
+        any: function() {return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());}
+    };
+
     function burger() {
         $('.header__burger').toggleClass('open-burger');
         $('body').toggleClass('lock');
         $('.header__nav').slideToggle();
-        $('.header__auth').slideToggle();
+        $('.header__buttons').slideToggle();
     }
 
     function validForm(form) {
@@ -94,7 +103,7 @@ $(function(){
         $.post("/modules/logout.php", 
                 $(this),
                 function (data, textStatus, jqXHR) {
-                    $('.header__auth span').text('Войти');
+                    $('.header__auth span').text('Увійти');
                     sessionStorage.removeItem('user');
                 },
             );
@@ -104,24 +113,67 @@ $(function(){
         $('.modal_error-signup').addClass('open-modal');
     }
 
+    function signUpSuccess() {
+        $('.modal_success-signup').addClass('open-modal');
+    }
+
     function signInError() {
         $('.modal__error').show();
     }
 
 
+    if (isMobile.any()) {
+        $('.header__auth').click(function () { 
+            if (sessionStorage.getItem('user')) {
+                let role = JSON.parse(sessionStorage.getItem('user')).role
+                if (role == 'admin') {
+                    $('.admin-link').css('display', 'block')
+                }
+    
+                $('.header__buttons-list').slideToggle();
+            }
+            
+        });
+    } else {
+        $('.header__buttons').mouseenter(function () { 
+            if (sessionStorage.getItem('user')) {
+                let role = JSON.parse(sessionStorage.getItem('user')).role
+                if (role == 'admin') {
+                    $('.admin-link').css('display', 'block')
+                }
+    
+                $('.header__buttons-list').slideDown();
+            }
+            
+        });
+    
+        $('.header__buttons').mouseleave(function () { 
+            if (sessionStorage.getItem('user')) {
+                $('.header__buttons-list').slideUp();
+            }
+        });
+    }
+    
+
+
     $('.header__burger').click(burger)
 
     $('.header__auth').click(function () { 
-        if (sessionStorage.getItem('user')) {
-            logout()
-        } else {
+        if (!sessionStorage.getItem('user')) {
             signIn()
-        }
-        
-        if ($('.header__burger').hasClass('open-burger')) {
-            burger()
+
+            if ($('.header__burger').hasClass('open-burger')) {
+                burger()
+            }
         }
     });
+
+    $('.logout').click(function (e) { 
+        e.preventDefault();
+        $('.header__buttons-list').slideUp();
+        logout()
+    });
+
 
     $('.modal__close').click(function () { 
         $('.modal').removeClass('open-modal');
@@ -137,7 +189,8 @@ $(function(){
                 if (data == 0) {
                     signInError()
                 } else {
-                    $('.header__auth span').text(data);
+                    let user = JSON.parse(data)
+                    $('.header__auth span').text(user.username);
                     sessionStorage.setItem('user', data);
                     clearForm($(this))
                     $('.open-modal').removeClass('open-modal');
@@ -156,8 +209,7 @@ $(function(){
                 if (data == 1) {
                     signUpError()
                 } else {
-                    $('.header__auth span').text(data);
-                    sessionStorage.setItem('user', data);
+                    signUpSuccess()
                 }
             },
         );
@@ -178,7 +230,7 @@ $(function(){
     });
 
     if (sessionStorage.getItem('user')) {
-        $('.header__auth span').text(sessionStorage.getItem('user'));
+        $('.header__auth span').text(JSON.parse(sessionStorage.getItem('user')).username);
     }
 
 

@@ -26,6 +26,7 @@
         height: 100%;
         background: rgba(0, 0, 0, 0.81);
         color: #FFFFFF;
+        overflow: auto;
     }
     .header__nav ul {
         display: block;
@@ -49,16 +50,37 @@
         margin: 0 88px 0 0;
     }
 
-    .header__auth {
+    .header__buttons {
         display: none;
         position: absolute;
+        color: #FFFFFF;
+    }
+
+    .header__auth {
         background: transparent;
         border: 1px solid #fff;
-        color: #FFFFFF;
         font-size: 17px;
+    }
+    .header__auth:hover {
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.81);
+        color: rgba(0, 0, 0, 0.81);
     }
     .header__auth svg {
         fill: #FFFFFF;
+    }
+    .header__auth:hover svg {
+        fill: rgba(0, 0, 0, 0.81);
+    }
+    .header__buttons ul li {
+        background-color: transparent;
+        border: 1px solid #fff;
+        margin: 0 0 3px 0;
+    }
+    .header__buttons ul li:hover {
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.81);
+        color: rgba(0, 0, 0, 0.81);
     }
 
     .header__cart {

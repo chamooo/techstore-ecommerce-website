@@ -1,3 +1,5 @@
+<?php require($_SERVER['DOCUMENT_ROOT'] . '/configs/connect.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,24 +11,27 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/media.css">
     <!-- BOOTSTRAP -->
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"> -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script> -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 <!-- jQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    
+
+    <script src="assets/js/script.js" defer></script>
+
     <title>Online Store</title>
 </head>
 <body>
-<header class="header">
-        <div class="header__container container">
-            <div class="header__logo">
-                <a href="../index.php" style="text-decoration: none; color: #000;">
-                    <img src="/assets/img/header/logo.svg">
-                    <div class="header__label">
-                        <h3>Гаджетаріум</h3>
-                        <h5>Магазин цифрових рішень</h5>
-                    </div>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container container">
+                <div class="header__logo">
+                    <a href="../index.php" style="text-decoration: none; color: #000;">
+                        <img src="/assets/img/header/logo.svg">
+                        <div class="header__label">
+                            <h3>Гаджетаріум</h3>
+                            <h5>Магазин цифрових рішень</h5>
+                        </div>
                 </a>
             </div>
             <nav class="header__nav">
@@ -65,10 +70,10 @@
                 <div>
                     <p><span> <?= $sum['SUM(price)'] ?> </span> грн.</p>
                     <p class="arrow-drop"></p>
+
+
                 </div>
-            </div>
-            <div class="header__burger">
-                <span></span>
-            </div>
-        </div>
-	</header>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+        </header>
