@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <div class="wrapper-header">
+    <div class="wrapper">
         <header class="header">
             <div class="header__container container">
                 <div class="header__logo">
@@ -60,25 +60,29 @@
                         <span>Увійти</span>
                     </button>
                     <ul class="header__buttons-list">
-                    <?php
-                        $sqlUser = "SELECT id, role FROM user WHERE id =" . $_SESSION['user_id'];
-                        $resultUser = mysqli_query($conn, $sqlUser);
-                        $userRole = $resultUser->fetch_assoc();
-                        if (isset($_SESSION['user_id']) && $userRole['role'] != 'admin') { ?>
+                    <!-- <?php
+                        // $sqlUser = "SELECT id, role FROM user WHERE id =" . $_SESSION['user_id'];
+                        // $resultUser = mysqli_query($conn, $sqlUser);
+                        // $userRole = $resultUser->fetch_assoc();
+                        // if (isset($_SESSION['user_id']) && $userRole['role'] != 'admin') { ?>
                             <style>
                                 .admin-link {
                                     display: none;
                                 }
                             </style>
-                        <?php } ?>
                         <?php
-                        if (!isset($_SESSION['user_id'])) { ?>
+                    //  } 
+                     ?>
+                        <?php
+                        // if (!isset($_SESSION['user_id'])) { ?>
                             <style>
                                 .logout {
                                     display: none;
                                 }
                             </style>
-                        <?php } ?>
+                        <?php
+                    //  } 
+                     ?> -->
                         <li class="admin-link">
                             <a href="/admin/">Адмін</a>
                         </li>

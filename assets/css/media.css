@@ -142,6 +142,10 @@
     .form__body {
         width: 100%;
     }
+
+    .preview {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 706px) {
