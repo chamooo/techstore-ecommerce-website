@@ -57,7 +57,9 @@ body {
 }
 .catalog__search {
   margin-bottom: 30px;
+  
 }
+
 .catalog__row {
   display: -webkit-box;
   display: -ms-flexbox;

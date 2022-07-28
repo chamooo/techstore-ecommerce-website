@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
     <link rel="stylesheet" href="assets/css/cart.css">
+
+
     <title>Кошик</title>
     <?php
     require($_SERVER['DOCUMENT_ROOT'] . '/configs/connect.php');
@@ -102,7 +104,13 @@
                                             ?>
                                             Загальна вартість: <b style="font-size: 24px; margin-left: 9px;"><?= $sum['SUM(price)'] ?> грн</b>
                                         </div>
-                                        <a href="" class="total__item-btn btn">Замовити</a>
+                                        <?php
+
+                                        
+                                        ?>
+                                        <form method="POST">
+                                            <input style="cursor: pointer;" name="submit" type="submit" class="total__item-btn btn" value="Замовити">
+                                        </form>
                                     </div>
                                 </div>
                             </div>
@@ -124,6 +132,7 @@
                             </style>
                         <?php
                         }
+                        
                         // ВИВЕДЕННЯ ТОВАРІВ
                         $whereIn = implode(',', $_SESSION['cart']);
                         $sql = "SELECT catalog.id, product_name, price, img_src
@@ -154,9 +163,21 @@
                                 </div>
                             </div>
                         <?php endwhile;
+                        $user_id = $_SESSION['user_id'];
+                        $arrayOfProducts = implode(',', $_SESSION['cart']);
+                        $order_sum = $sum['SUM(price)'];
+
+                        if(isset($_POST['submit'])) {
+                            $sql = "INSERT INTO user_order (id_user, id_product, order_sum)
+                            VALUES ($user_id, '$arrayOfProducts', '$order_sum')";
+                            if(mysqli_query($conn, $sql)) {
+                                echo '<script>alert("Замовлення додано")</script>';
+                                unset($_SESSION['cart']);
+                            } else {
+                                "Замовлення НЕ додано";
+                            }
+                        }
                         ?>
-
-
                     </div>
                 </div>
             </div>

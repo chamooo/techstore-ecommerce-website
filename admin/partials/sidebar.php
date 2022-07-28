@@ -38,7 +38,16 @@
     <a class="nav-link" href="/admin/users.php">
         <span>Користувачі</span></a>
 </li>
+<li class="nav-item">
+    <a class="nav-link" href="/admin/orders.php">
+        <span>Замовлення</span></a>
+</li>
+<hr class="sidebar-divider d-none d-md-block">
 
+<li class="nav-item">
+    <a class="nav-link" href="/index.php">
+        <h6>В магазин</h6></a>
+</li>
 <!-- Divider -->
 <hr class="sidebar-divider d-none d-md-block">
 
