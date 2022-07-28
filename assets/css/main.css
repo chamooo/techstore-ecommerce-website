@@ -176,6 +176,7 @@ body {
 	margin: 0 37px 0 0;
     color: #EB2D66;
 	position: relative;
+	/* test */
 }
 .header__auth {
     display: flex;
