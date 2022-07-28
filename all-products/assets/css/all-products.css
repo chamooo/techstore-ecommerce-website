@@ -81,8 +81,8 @@ body {
   transition: 0.1s;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-  min-height: 750px;
-  max-height: 1500px;
+  min-height: 800px;
+  max-height: 1600px;
   max-width: 396px;
 }
 .item__row {
