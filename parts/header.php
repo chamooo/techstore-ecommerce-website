@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <div class="wrapper-header">
+    <div class="wrapper">
         <header class="header">
             <div class="header__container container">
                 <div class="header__logo">
