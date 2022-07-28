@@ -6,7 +6,7 @@ if(empty($_SESSION['cart'])) {
 }
 
 array_push($_SESSION['cart'], $_GET['id']);
-header('Location: /index.php');
+header('Location: /all-products/all-products.php');
 
 ?>
 
