@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/media.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/cart.css">
+    <link rel="stylesheet" type="text/css" href="/all-products/assets/css/all-products.css">
+<!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<!-- jQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
     <title>Online Store</title>
 </head>
 <body>
@@ -25,20 +32,16 @@
             <nav class="header__nav">
                 <ul>
                     <li>
-                        <a href="">Телефони</a>
+                        <a href="/all-products/all-products.php">Всі</a>
                     </li>
                     <li>
-                        <a href="">Планшети</a>
+                        <a href="/all-products/all-products.php?category=Смартфони">Телефони</a>
                     </li>
                     <li>
-                        <a href="">Ноутбуки</a>
+                        <a href="/all-products/all-products.php?category=Планшети">Планшети</a>
                     </li>
                     <li>
-                        <a href="">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </a>
+                        <a href="/all-products/all-products.php?category=Ноутбуки">Ноутбуки</a>
                     </li>
                 </ul>
             </nav>
@@ -57,13 +60,9 @@
             </button>
             <div class="header__cart">
                 <a href="/cart/cart.php">
-                    <img src="assets/img/header/shopping-cart.svg">
+                    <img src="/assets/img/header/shopping-cart.svg">
                 </a>
                 <div>
-                    <?php
-                    // include_once($_SERVER['DOCUMENT_ROOT'] . '/cart/cart.php') 
-                    ?>
-                   
                     <p><span> <?= $sum['SUM(price)'] ?> </span> грн.</p>
                     <p class="arrow-drop"></p>
                 </div>

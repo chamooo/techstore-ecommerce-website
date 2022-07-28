@@ -10,14 +10,10 @@ if (!empty($_POST)) {
     
     if($user) {
         $_SESSION["user_id"] = $user['id'];
-
         echo $user['username'];
-        
     }
 
     
 }
-
-
 
 ?>

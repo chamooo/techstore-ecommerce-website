@@ -1,0 +1,143 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+html,
+body {
+    font-family: Montserrat;
+    height: 100vh;
+    width: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.content {
+    flex: 1 1 auto;
+}
+
+.container {
+    padding: 0 20px;
+    max-width: 1250px;
+    margin: 0px auto;
+}
+.title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2A2D46;
+}
+.catalog {
+    
+    
+    &__title {
+        margin: 30px 0px 80px 0;
+    }
+
+    &__choice {
+        width: fit-content;
+        margin: 0 auto 30px auto;
+
+    }
+    &__choice a {
+        text-decoration: none;
+        color: #636363;
+        margin-right: 30px;
+
+        &:last-child {
+            margin-right: 0px;
+        }
+        &:hover {
+            color: #0C76D8;
+        }
+    }
+    &__search {
+        margin-bottom: 30px;
+    }
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__column {
+        flex: 0 1 33.333%;
+        justify-content: center;
+    }
+
+}
+
+.item {
+    padding: 30px 50px 50px;
+    margin: 10px;
+    transition: .1s;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    min-height: 750px;
+    max-height: 1500px;
+
+    &__row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__img {
+        min-height: 250px;
+        // flex: 0 0 100px;
+        margin: auto auto auto auto;
+
+    }
+    &__img img{
+        max-width: 300px;
+        max-height: 250px;
+        transition: .3s;
+        &:hover {
+            transform: scale(1.04);
+        }
+    }
+
+    &__body {
+        padding-top: 50px;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 21px;
+        color: #2A2D46;
+        padding-bottom: 20px;
+    }
+
+    &__text p {
+        margin-bottom: 10px;
+        
+    }
+
+    &__description {
+    }
+
+    &__price {
+        margin-top: 40px;
+    }
+    &__price a{
+        padding: 15px 40px;
+        background-color: #EB2D66;
+        text-decoration: none;
+        margin-top: 20px;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 18px;
+        color: #ffffff;
+        transition: .2s;
+        &:hover {
+            background-color: #d53867;
+            color: #fff;
+        }
+    }
+
+    &__rating {}
+}

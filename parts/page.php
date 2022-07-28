@@ -1,8 +1,12 @@
+<?php
+require('header.php');
+?>
 <div class="preview">
 		<div class="description">
 			<h1>Яркие гаджеты на любой вкус и день</h1>
 			<p>Мы собрали лучшие гаджеты от лучших брендов, чтобы порадовать вас свежими новинками digital-рынка. </p>
-			<button>Смотреть каталог</button>
+			<a href="/all-products.php">Смотреть каталог</a>
+
 		</div>
 		<div class="product">
 			<img src="img/preview-background.png">
