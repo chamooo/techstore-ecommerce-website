@@ -1,6 +1,3 @@
-<?php
-require('header.php');
-?>
 <div class="container">
 	<div class="preview">
 		<div class="description">
@@ -38,26 +35,11 @@ require('header.php');
 			<h1>Iphone X</h1>
 			<img src="assets/img/product-img.png">
 			<table>
-				<tr>
-					<td><strong>Корпус:</strong></td>
-					<td>Металл, Стекло</td>
-				</tr>
-				<tr>
-					<td><strong>Влагозащита:</strong></td>
-					<td>IP67</td>
-				</tr>
-				<tr>
-					<td><strong>Цвет:</strong></td>
-					<td>Черный</td>
-				</tr>
-				<tr>
-					<td><strong>Тип экрана:</strong></td>
-					<td>IPS</td>
-				</tr>
-				<tr>
-					<td><strong>Размер экрана:</strong></td>
-					<td>4,7</td>
-				</tr>
+				<tr><td><strong>Корпус:</strong></td><td>Металл, Стекло</td></tr>
+				<tr><td><strong>Влагозащита:</strong></td><td>IP67</td></tr>
+				<tr><td><strong>Цвет:</strong></td><td>Черный</td></tr>
+				<tr><td><strong>Тип экрана:</strong></td><td>IPS</td></tr>
+				<tr><td><strong>Размер экрана:</strong></td><td>4,7</td></tr>
 			</table>
 			<h3>22 000 грн.</h3>
 			<button>
@@ -68,26 +50,11 @@ require('header.php');
 			<h1>Iphone X</h1>
 			<img src="assets/img/product-img.png">
 			<table>
-				<tr>
-					<td><strong>Корпус:</strong></td>
-					<td>Металл, Стекло</td>
-				</tr>
-				<tr>
-					<td><strong>Влагозащита:</strong></td>
-					<td>IP67</td>
-				</tr>
-				<tr>
-					<td><strong>Цвет:</strong></td>
-					<td>Черный</td>
-				</tr>
-				<tr>
-					<td><strong>Тип экрана:</strong></td>
-					<td>IPS</td>
-				</tr>
-				<tr>
-					<td><strong>Размер экрана:</strong></td>
-					<td>4,7</td>
-				</tr>
+				<tr><td><strong>Корпус:</strong></td><td>Металл, Стекло</td></tr>
+				<tr><td><strong>Влагозащита:</strong></td><td>IP67</td></tr>
+				<tr><td><strong>Цвет:</strong></td><td>Черный</td></tr>
+				<tr><td><strong>Тип экрана:</strong></td><td>IPS</td></tr>
+				<tr><td><strong>Размер экрана:</strong></td><td>4,7</td></tr>
 			</table>
 			<h3>22 000 грн.</h3>
 			<button>
@@ -98,26 +65,11 @@ require('header.php');
 			<h1>Iphone X</h1>
 			<img src="assets/img/product-img.png">
 			<table>
-				<tr>
-					<td><strong>Корпус:</strong></td>
-					<td>Металл, Стекло</td>
-				</tr>
-				<tr>
-					<td><strong>Влагозащита:</strong></td>
-					<td>IP67</td>
-				</tr>
-				<tr>
-					<td><strong>Цвет:</strong></td>
-					<td>Черный</td>
-				</tr>
-				<tr>
-					<td><strong>Тип экрана:</strong></td>
-					<td>IPS</td>
-				</tr>
-				<tr>
-					<td><strong>Размер экрана:</strong></td>
-					<td>4,7</td>
-				</tr>
+				<tr><td><strong>Корпус:</strong></td><td>Металл, Стекло</td></tr>
+				<tr><td><strong>Влагозащита:</strong></td><td>IP67</td></tr>
+				<tr><td><strong>Цвет:</strong></td><td>Черный</td></tr>
+				<tr><td><strong>Тип экрана:</strong></td><td>IPS</td></tr>
+				<tr><td><strong>Размер экрана:</strong></td><td>4,7</td></tr>
 			</table>
 			<h3>22 000 грн.</h3>
 			<button>
@@ -128,26 +80,11 @@ require('header.php');
 			<h1>Iphone X</h1>
 			<img src="assets/img/product-img.png">
 			<table>
-				<tr>
-					<td><strong>Корпус:</strong></td>
-					<td>Металл, Стекло</td>
-				</tr>
-				<tr>
-					<td><strong>Влагозащита:</strong></td>
-					<td>IP67</td>
-				</tr>
-				<tr>
-					<td><strong>Цвет:</strong></td>
-					<td>Черный</td>
-				</tr>
-				<tr>
-					<td><strong>Тип экрана:</strong></td>
-					<td>IPS</td>
-				</tr>
-				<tr>
-					<td><strong>Размер экрана:</strong></td>
-					<td>4,7</td>
-				</tr>
+				<tr><td><strong>Корпус:</strong></td><td>Металл, Стекло</td></tr>
+				<tr><td><strong>Влагозащита:</strong></td><td>IP67</td></tr>
+				<tr><td><strong>Цвет:</strong></td><td>Черный</td></tr>
+				<tr><td><strong>Тип экрана:</strong></td><td>IPS</td></tr>
+				<tr><td><strong>Размер экрана:</strong></td><td>4,7</td></tr>
 			</table>
 			<h3>22 000 грн.</h3>
 			<button>
@@ -176,26 +113,11 @@ require('header.php');
 			<h1>Iphone X</h1>
 			<img src="assets/img/product-img.png">
 			<table>
-				<tr>
-					<td>Корпус:</td>
-					<td>Металл, Стекло</td>
-				</tr>
-				<tr>
-					<td>Влагозащита:</td>
-					<td>IP67</td>
-				</tr>
-				<tr>
-					<td>Цвет:</td>
-					<td>Черный</td>
-				</tr>
-				<tr>
-					<td>Тип экрана:</td>
-					<td>IPS</td>
-				</tr>
-				<tr>
-					<td>Размер экрана:</td>
-					<td>4,7</td>
-				</tr>
+				<tr><td>Корпус:</td><td>Металл, Стекло</td></tr>
+				<tr><td>Влагозащита:</td><td>IP67</td></tr>
+				<tr><td>Цвет:</td><td>Черный</td></tr>
+				<tr><td>Тип экрана:</td><td>IPS</td></tr>
+				<tr><td>Размер экрана:</td><td>4,7</td></tr>
 			</table>
 			<h3>22 000 грн.</h3>
 			<button>
@@ -206,26 +128,11 @@ require('header.php');
 			<h1>Iphone X</h1>
 			<img src="assets/img/product-img.png">
 			<table>
-				<tr>
-					<td>Корпус:</td>
-					<td>Металл, Стекло</td>
-				</tr>
-				<tr>
-					<td>Влагозащита:</td>
-					<td>IP67</td>
-				</tr>
-				<tr>
-					<td>Цвет:</td>
-					<td>Черный</td>
-				</tr>
-				<tr>
-					<td>Тип экрана:</td>
-					<td>IPS</td>
-				</tr>
-				<tr>
-					<td>Размер экрана:</td>
-					<td>4,7</td>
-				</tr>
+				<tr><td>Корпус:</td><td>Металл, Стекло</td></tr>
+				<tr><td>Влагозащита:</td><td>IP67</td></tr>
+				<tr><td>Цвет:</td><td>Черный</td></tr>
+				<tr><td>Тип экрана:</td><td>IPS</td></tr>
+				<tr><td>Размер экрана:</td><td>4,7</td></tr>
 			</table>
 			<h3>22 000 грн.</h3>
 			<button>
@@ -236,26 +143,11 @@ require('header.php');
 			<h1>Iphone X</h1>
 			<img src="assets/img/product-img.png">
 			<table>
-				<tr>
-					<td>Корпус:</td>
-					<td>Металл, Стекло</td>
-				</tr>
-				<tr>
-					<td>Влагозащита:</td>
-					<td>IP67</td>
-				</tr>
-				<tr>
-					<td>Цвет:</td>
-					<td>Черный</td>
-				</tr>
-				<tr>
-					<td>Тип экрана:</td>
-					<td>IPS</td>
-				</tr>
-				<tr>
-					<td>Размер экрана:</td>
-					<td>4,7</td>
-				</tr>
+				<tr><td>Корпус:</td><td>Металл, Стекло</td></tr>
+				<tr><td>Влагозащита:</td><td>IP67</td></tr>
+				<tr><td>Цвет:</td><td>Черный</td></tr>
+				<tr><td>Тип экрана:</td><td>IPS</td></tr>
+				<tr><td>Размер экрана:</td><td>4,7</td></tr>
 			</table>
 			<h3>22 000 грн.</h3>
 			<button>
@@ -266,26 +158,11 @@ require('header.php');
 			<h1>Iphone X</h1>
 			<img src="assets/img/product-img.png">
 			<table>
-				<tr>
-					<td>Корпус:</td>
-					<td>Металл, Стекло</td>
-				</tr>
-				<tr>
-					<td>Влагозащита:</td>
-					<td>IP67</td>
-				</tr>
-				<tr>
-					<td>Цвет:</td>
-					<td>Черный</td>
-				</tr>
-				<tr>
-					<td>Тип экрана:</td>
-					<td>IPS</td>
-				</tr>
-				<tr>
-					<td>Размер экрана:</td>
-					<td>4,7</td>
-				</tr>
+				<tr><td>Корпус:</td><td>Металл, Стекло</td></tr>
+				<tr><td>Влагозащита:</td><td>IP67</td></tr>
+				<tr><td>Цвет:</td><td>Черный</td></tr>
+				<tr><td>Тип экрана:</td><td>IPS</td></tr>
+				<tr><td>Размер экрана:</td><td>4,7</td></tr>
 			</table>
 			<h3>22 000 грн.</h3>
 			<button>
@@ -296,26 +173,11 @@ require('header.php');
 			<h1>Iphone X</h1>
 			<img src="assets/img/product-img.png">
 			<table>
-				<tr>
-					<td>Корпус:</td>
-					<td>Металл, Стекло</td>
-				</tr>
-				<tr>
-					<td>Влагозащита:</td>
-					<td>IP67</td>
-				</tr>
-				<tr>
-					<td>Цвет:</td>
-					<td>Черный</td>
-				</tr>
-				<tr>
-					<td>Тип экрана:</td>
-					<td>IPS</td>
-				</tr>
-				<tr>
-					<td>Размер экрана:</td>
-					<td>4,7</td>
-				</tr>
+				<tr><td>Корпус:</td><td>Металл, Стекло</td></tr>
+				<tr><td>Влагозащита:</td><td>IP67</td></tr>
+				<tr><td>Цвет:</td><td>Черный</td></tr>
+				<tr><td>Тип экрана:</td><td>IPS</td></tr>
+				<tr><td>Размер экрана:</td><td>4,7</td></tr>
 			</table>
 			<h3>22 000 грн.</h3>
 			<button>
@@ -326,26 +188,11 @@ require('header.php');
 			<h1>Iphone X</h1>
 			<img src="assets/img/product-img.png">
 			<table>
-				<tr>
-					<td>Корпус:</td>
-					<td>Металл, Стекло</td>
-				</tr>
-				<tr>
-					<td>Влагозащита:</td>
-					<td>IP67</td>
-				</tr>
-				<tr>
-					<td>Цвет:</td>
-					<td>Черный</td>
-				</tr>
-				<tr>
-					<td>Тип экрана:</td>
-					<td>IPS</td>
-				</tr>
-				<tr>
-					<td>Размер экрана:</td>
-					<td>4,7</td>
-				</tr>
+				<tr><td>Корпус:</td><td>Металл, Стекло</td></tr>
+				<tr><td>Влагозащита:</td><td>IP67</td></tr>
+				<tr><td>Цвет:</td><td>Черный</td></tr>
+				<tr><td>Тип экрана:</td><td>IPS</td></tr>
+				<tr><td>Размер экрана:</td><td>4,7</td></tr>
 			</table>
 			<h3>22 000 грн.</h3>
 			<button>
@@ -356,26 +203,11 @@ require('header.php');
 			<h1>Iphone X</h1>
 			<img src="assets/img/product-img.png">
 			<table>
-				<tr>
-					<td>Корпус:</td>
-					<td>Металл, Стекло</td>
-				</tr>
-				<tr>
-					<td>Влагозащита:</td>
-					<td>IP67</td>
-				</tr>
-				<tr>
-					<td>Цвет:</td>
-					<td>Черный</td>
-				</tr>
-				<tr>
-					<td>Тип экрана:</td>
-					<td>IPS</td>
-				</tr>
-				<tr>
-					<td>Размер экрана:</td>
-					<td>4,7</td>
-				</tr>
+				<tr><td>Корпус:</td><td>Металл, Стекло</td></tr>
+				<tr><td>Влагозащита:</td><td>IP67</td></tr>
+				<tr><td>Цвет:</td><td>Черный</td></tr>
+				<tr><td>Тип экрана:</td><td>IPS</td></tr>
+				<tr><td>Размер экрана:</td><td>4,7</td></tr>
 			</table>
 			<h3>22 000 грн.</h3>
 			<button>
@@ -386,26 +218,11 @@ require('header.php');
 			<h1>Iphone X</h1>
 			<img src="assets/img/product-img.png">
 			<table>
-				<tr>
-					<td>Корпус:</td>
-					<td>Металл, Стекло</td>
-				</tr>
-				<tr>
-					<td>Влагозащита:</td>
-					<td>IP67</td>
-				</tr>
-				<tr>
-					<td>Цвет:</td>
-					<td>Черный</td>
-				</tr>
-				<tr>
-					<td>Тип экрана:</td>
-					<td>IPS</td>
-				</tr>
-				<tr>
-					<td>Размер экрана:</td>
-					<td>4,7</td>
-				</tr>
+				<tr><td>Корпус:</td><td>Металл, Стекло</td></tr>
+				<tr><td>Влагозащита:</td><td>IP67</td></tr>
+				<tr><td>Цвет:</td><td>Черный</td></tr>
+				<tr><td>Тип экрана:</td><td>IPS</td></tr>
+				<tr><td>Размер экрана:</td><td>4,7</td></tr>
 			</table>
 			<h3>22 000 грн.</h3>
 			<button>
@@ -414,6 +231,4 @@ require('header.php');
 		</div>
 	</div>
 	<div class="clearfix"></div>
-</div>
-</div>
 </div>

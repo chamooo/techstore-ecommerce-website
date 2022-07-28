@@ -8,8 +8,7 @@ require('parts/modals/success_registr.php');
 require('parts/modals/login.php');
 require('parts/page.php');
 ?>
-
-
+</div>
 
 
 

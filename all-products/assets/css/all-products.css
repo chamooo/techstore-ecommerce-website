@@ -83,6 +83,7 @@ body {
           box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
   min-height: 750px;
   max-height: 1500px;
+  max-width: 396px;
 }
 .item__row {
   display: -webkit-box;
@@ -120,6 +121,7 @@ body {
 }
 .item__text p {
   margin-bottom: 10px;
+  line-height: 25px;
 }
 .item__price {
   margin-top: 40px;

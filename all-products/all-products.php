@@ -75,7 +75,10 @@ else {
 
 $result = mysqli_query($conn, $sql);
 ?>
-
+ <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"> 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
 
 <?php
@@ -200,8 +203,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/parts/header.php');
         })
     });
 </script>
-
-
+</div>
 <?php
 require($_SERVER['DOCUMENT_ROOT'] . '/parts/footer.php');
 ?>
