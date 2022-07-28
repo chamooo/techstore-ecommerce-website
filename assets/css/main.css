@@ -70,18 +70,25 @@ body {
  	opacity: 0.81;
 }
 
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
 .container {
-	max-width: 1250px;
+	max-width: 1170px;
 	padding: 0px 15px;
     margin: 0px auto;
     box-sizing: content-box;
 }
 
-.body-content {
+/* .body-content {
 	display: block;
 	max-width: 1400px;
 	margin: 0 auto;
-}
+} */
 
 /* -------------------------------
 		HEADER
@@ -370,7 +377,7 @@ body {
 
 .preview .description {
 	margin-top: 70px;
-	display: block;
+	display: flex;
 	width: 500px;
 	height: 300px;
 	float: left;

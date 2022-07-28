@@ -1,4 +1,4 @@
-<div class="body-content">
+<div class="container">
 	<div class="preview">
 		<div class="description">
 			<h1>Яркие гаджеты на любой вкус и день</h1>
@@ -6,9 +6,9 @@
 			<button>Смотреть каталог</button>
 		</div>
 		<div class="product">
-			<img src="img/preview-background.png">
+			<img src="assets/img/preview-background.png">
 			<div class="bg-gradient"></div>
-			<img class="product-img" src="img/drone.png">
+			<img class="product-img" src="assets/img/drone.png">
 			<div class="product-description">
 				<h1>DJI Mavic Pro</h1>
 				<p>32 MP Sphere Panoramas
@@ -32,7 +32,7 @@
 		<div class="clearfix"></div>
 		<div class="product-card">
 			<h1>Iphone X</h1>
-			<img src="img/product-img.png">
+			<img src="assets/img/product-img.png">
 			<table>
 				<tr><td><strong>Корпус:</strong></td><td>Металл, Стекло</td></tr>
 				<tr><td><strong>Влагозащита:</strong></td><td>IP67</td></tr>
@@ -42,12 +42,12 @@
 			</table>
 			<h3>22 000 грн.</h3>
 			<button>
-				<img src="img/more.svg">
+				<img src="assets/img/more.svg">
 			</button>
 		</div>
 		<div class="product-card">
 			<h1>Iphone X</h1>
-			<img src="img/product-img.png">
+			<img src="assets/img/product-img.png">
 			<table>
 				<tr><td><strong>Корпус:</strong></td><td>Металл, Стекло</td></tr>
 				<tr><td><strong>Влагозащита:</strong></td><td>IP67</td></tr>
@@ -57,12 +57,12 @@
 			</table>
 			<h3>22 000 грн.</h3>
 			<button>
-				<img src="img/more.svg">
+				<img src="assets/img/more.svg">
 			</button>
 		</div>
 		<div class="product-card">
 			<h1>Iphone X</h1>
-			<img src="img/product-img.png">
+			<img src="assets/img/product-img.png">
 			<table>
 				<tr><td><strong>Корпус:</strong></td><td>Металл, Стекло</td></tr>
 				<tr><td><strong>Влагозащита:</strong></td><td>IP67</td></tr>
@@ -72,12 +72,12 @@
 			</table>
 			<h3>22 000 грн.</h3>
 			<button>
-				<img src="img/more.svg">
+				<img src="assets/img/more.svg">
 			</button>
 		</div>
 		<div class="product-card">
 			<h1>Iphone X</h1>
-			<img src="img/product-img.png">
+			<img src="assets/img/product-img.png">
 			<table>
 				<tr><td><strong>Корпус:</strong></td><td>Металл, Стекло</td></tr>
 				<tr><td><strong>Влагозащита:</strong></td><td>IP67</td></tr>
@@ -87,20 +87,20 @@
 			</table>
 			<h3>22 000 грн.</h3>
 			<button>
-				<img src="img/more.svg">
+				<img src="assets/img/more.svg">
 			</button>
 		</div>
 	</div>
 	<div class="clearfix"></div>
 	<div class="offers">
 		<div class="card">
-			<img src="img/offer-backgraund.png">
+			<img src="assets/img/offer-backgraund.png">
 			<div class="bg-gradient"></div>
 			<h1>Поступление новых самокатов</h1>
 			<h3>Электротранспорт снова в моде</h3>
 		</div>
 		<div class="card">
-			<img src="img/offer-backgraund.png">
+			<img src="assets/img/offer-backgraund.png">
 			<div class="bg-gradient"></div>
 			<h1>Поступление новых самокатов</h1>
 			<h3>Электротранспорт снова в моде</h3>
@@ -110,7 +110,7 @@
 		<h1 class="h1">Каталог товаров</h1>
 		<div class="product-card">
 			<h1>Iphone X</h1>
-			<img src="img/product-img.png">
+			<img src="assets/img/product-img.png">
 			<table>
 				<tr><td>Корпус:</td><td>Металл, Стекло</td></tr>
 				<tr><td>Влагозащита:</td><td>IP67</td></tr>
@@ -120,12 +120,12 @@
 			</table>
 			<h3>22 000 грн.</h3>
 			<button>
-				<img src="img/more.svg">
+				<img src="assets/img/more.svg">
 			</button>
 		</div>
 		<div class="product-card">
 			<h1>Iphone X</h1>
-			<img src="img/product-img.png">
+			<img src="assets/img/product-img.png">
 			<table>
 				<tr><td>Корпус:</td><td>Металл, Стекло</td></tr>
 				<tr><td>Влагозащита:</td><td>IP67</td></tr>
@@ -135,12 +135,12 @@
 			</table>
 			<h3>22 000 грн.</h3>
 			<button>
-				<img src="img/more.svg">
+				<img src="assets/img/more.svg">
 			</button>
 		</div>
 		<div class="product-card">
 			<h1>Iphone X</h1>
-			<img src="img/product-img.png">
+			<img src="assets/img/product-img.png">
 			<table>
 				<tr><td>Корпус:</td><td>Металл, Стекло</td></tr>
 				<tr><td>Влагозащита:</td><td>IP67</td></tr>
@@ -150,12 +150,12 @@
 			</table>
 			<h3>22 000 грн.</h3>
 			<button>
-				<img src="img/more.svg">
+				<img src="assets/img/more.svg">
 			</button>
 		</div>
 		<div class="product-card">
 			<h1>Iphone X</h1>
-			<img src="img/product-img.png">
+			<img src="assets/img/product-img.png">
 			<table>
 				<tr><td>Корпус:</td><td>Металл, Стекло</td></tr>
 				<tr><td>Влагозащита:</td><td>IP67</td></tr>
@@ -165,12 +165,12 @@
 			</table>
 			<h3>22 000 грн.</h3>
 			<button>
-				<img src="img/more.svg">
+				<img src="assets/img/more.svg">
 			</button>
 		</div>
 		<div class="product-card">
 			<h1>Iphone X</h1>
-			<img src="img/product-img.png">
+			<img src="assets/img/product-img.png">
 			<table>
 				<tr><td>Корпус:</td><td>Металл, Стекло</td></tr>
 				<tr><td>Влагозащита:</td><td>IP67</td></tr>
@@ -180,12 +180,12 @@
 			</table>
 			<h3>22 000 грн.</h3>
 			<button>
-				<img src="img/more.svg">
+				<img src="assets/img/more.svg">
 			</button>
 		</div>
 		<div class="product-card">
 			<h1>Iphone X</h1>
-			<img src="img/product-img.png">
+			<img src="assets/img/product-img.png">
 			<table>
 				<tr><td>Корпус:</td><td>Металл, Стекло</td></tr>
 				<tr><td>Влагозащита:</td><td>IP67</td></tr>
@@ -195,12 +195,12 @@
 			</table>
 			<h3>22 000 грн.</h3>
 			<button>
-				<img src="img/more.svg">
+				<img src="assets/img/more.svg">
 			</button>
 		</div>
 		<div class="product-card">
 			<h1>Iphone X</h1>
-			<img src="img/product-img.png">
+			<img src="assets/img/product-img.png">
 			<table>
 				<tr><td>Корпус:</td><td>Металл, Стекло</td></tr>
 				<tr><td>Влагозащита:</td><td>IP67</td></tr>
@@ -210,12 +210,12 @@
 			</table>
 			<h3>22 000 грн.</h3>
 			<button>
-				<img src="img/more.svg">
+				<img src="assets/img/more.svg">
 			</button>
 		</div>
 		<div class="product-card">
 			<h1>Iphone X</h1>
-			<img src="img/product-img.png">
+			<img src="assets/img/product-img.png">
 			<table>
 				<tr><td>Корпус:</td><td>Металл, Стекло</td></tr>
 				<tr><td>Влагозащита:</td><td>IP67</td></tr>
@@ -225,7 +225,7 @@
 			</table>
 			<h3>22 000 грн.</h3>
 			<button>
-				<img src="img/more.svg">
+				<img src="assets/img/more.svg">
 			</button>
 		</div>
 	</div>
