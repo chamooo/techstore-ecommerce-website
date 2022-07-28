@@ -109,8 +109,10 @@ body {
     position: relative;
 }
 .header__logo {
-	display: flex;
     margin: 0 74px 0 0;
+}
+.header__logo a {
+	display: flex;
 }
 .header__logo img {
     margin: 0 11px 0 0;
@@ -136,7 +138,6 @@ body {
 .header__nav {
     margin: 0 58px 0 0;
     color: #2A2D46;
-    overflow: auto;
 }
 .header__nav ul {
     display: flex;
@@ -171,23 +172,69 @@ body {
     color: #2A2D46;
     margin: 0 37px 0 0;
 }
+.header__buttons {
+	margin: 0 37px 0 0;
+    color: #EB2D66;
+	position: relative;
+}
 .header__auth {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
-    border: 1px solid #EB2D66;
-    color: #EB2D66;
     padding: 5px 15px;
-    margin: 0 37px 0 0;
-    font-weight: 700;
+	background-color: #fff;
+	border: 1px solid #EB2D66;
+	color: inherit;
+	font-weight: 700;
     font-size: 11px;
     line-height: 118%;
+}
+.header__auth:hover {
+	background-color: #EB2D66;
+	border: 1px solid #fff;
+	color: #fff;
 }
 .header__auth svg {
     fill: #EB2D66;
     width: 20px;
     margin: 0 10px 0 0;
+}
+.header__auth:hover svg {
+	fill: #fff;
+}
+
+.header__buttons ul {
+	width: 100%;
+	position: absolute;
+	top: 18px;
+	left: 0;
+	padding: 17px 0 0 0;
+	display: none;
+}
+.header__buttons ul li {
+	background-color: #fff;
+	border: 1px solid #EB2D66;
+	margin: 0 0 3px 0;
+
+}
+.header__buttons ul li:hover {
+	background-color: #EB2D66;
+	border: 1px solid #fff;
+	color: #fff;
+}
+.header__buttons ul li a {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 15px;
+	color: inherit;
+	font-weight: 700;
+    font-size: 11px;
+    line-height: 118%;
+}
+
+.admin-link {
+	display: none;
 }
 .header__cart {
     display: flex;
