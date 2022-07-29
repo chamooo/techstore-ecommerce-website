@@ -570,7 +570,7 @@ body {
 --------------------------- */
 .hot-slider {
 	margin: 100px auto;
-	width: fit-content;
+	/* width: fit-content; */
 }
 .hot-slider .head {
 	margin: 0 0 104px 0;
@@ -714,21 +714,16 @@ body {
 .offers {
 	display: flex;
 	align-items: center;
-}
-.offers .card {
-	overflow: hidden;
-	position: relative;
-	min-width: 530px;
-	height: 425px;
-	margin: 20px;
-	position: relative;
-	object-fit: cover;
-	padding: 208px 150px 121px 73px;
 	justify-content: space-between;
 	margin: 0 -15px;
 }
 .offers__column {
 	padding: 0 15px;
+}
+.offers .card {
+	position: relative;
+	object-fit: cover;
+	padding: 208px 150px 121px 73px;
 }
 
 .offers img {
@@ -766,13 +761,13 @@ body {
 .catalog__columns {
 	display: flex;
 	flex-wrap: wrap;
-	margin: 0 -15px;
-	max-height: 1050px;
+	margin: 0 -8px;
+	max-height: 1585px;
 	overflow: hidden;
 }
 .catalog__column {
 	flex: 1 0 25%;
-	padding: 5px 15px;
+	padding: 5px 8px;
 	margin: 0 0 27px 0;
 }
 

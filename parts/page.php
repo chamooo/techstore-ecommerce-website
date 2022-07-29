@@ -52,7 +52,7 @@
 					JOIN product ON id_product = product.id
 					JOIN category ON id_category = category.id
 					JOIN maker ON id_maker = maker.id
-					LIMIT 4";
+					LIMIT 8";
 					$result = mysqli_query($conn, $sql);
 					while ($row = $result->fetch_assoc()) : ?>
 					<div class="hot-slider__column">
@@ -87,15 +87,17 @@
 				<div class="card">
 					<img src="assets/img/offer-backgraund.png">
 					<div class="bg-gradient"></div>
-					<h1>Надходження новых гаджетів</h1>
+					<h2>Надходження новых гаджетів</h2>
+					<h3>Электротранспорт снова в моде</h3>
 				</div>
 			</div>
 
 			<div class="offers__column">
 				<div class="card">
-					<img src="assets/img/offer-backgraund.png">
+					<img src="assets/img/offer-backgraund-2.png">
 					<div class="bg-gradient"></div>
-					<h1>Надходження новых гаджетів</h1>
+					<h2>Надходження новых гаджетів</h2>
+					<h3>Электротранспорт снова в моде</h3>
 				</div>
 			</div>
 		</section>
