@@ -83,9 +83,11 @@ $result = mysqli_query($conn, $sql);
 
 <?php
 require($_SERVER['DOCUMENT_ROOT'] . '/parts/header.php');
+
 // var_dump($_SESSION['cart']);
 // unset($_SESSION['cart']);
 ?>
+
 <div class="wrapper">
     <div class="content">
         <div class="catalog">

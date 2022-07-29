@@ -8,9 +8,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="/all-products/assets/css/all-products.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css"> 
     <link rel="stylesheet" type="text/css" href="/assets/css/media.css">
+    <link rel="stylesheet" type="text/css" href="/all-products/assets/css/all-products.css">
     <link rel="stylesheet" type="text/css" href="/assets/js/vendor/jquery.mCustomScrollbar.min.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

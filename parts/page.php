@@ -17,7 +17,7 @@
 						<h1>Macbook 14'' 2021 Pro</h1>
 						<p>Apple M1 Max CPU</p>
 						<p>14 core GPU</p>
-						<h3>264399 грн.</h3>
+						<h3>26 4399 грн.</h3>
 					</div>
 
 				</div>
@@ -82,12 +82,11 @@
 		</section>
 
 		<section class="offers">
-
 			<div class="offers__column">
 				<div class="card">
+					<h1>Надходження новых гаджетів</h1>
 					<img src="assets/img/offer-backgraund.png">
 					<div class="bg-gradient"></div>
-					<h1>Надходження новых гаджетів</h1>
 				</div>
 			</div>
 
