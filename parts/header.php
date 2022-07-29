@@ -75,8 +75,6 @@
                         <img src="/assets/img/header/shopping-cart.svg">
                     </a>
                     <div>
-
-                        <p><span> <?php /*$sum['SUM(price)']  */ ?> </span> грн.</p>
                         <p class="arrow-drop"></p>
                     </div>
                 </div>
