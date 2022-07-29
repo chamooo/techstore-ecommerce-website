@@ -11,8 +11,10 @@
     <link rel="stylesheet" type="text/css" href="/all-products/assets/css/all-products.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css"> 
     <link rel="stylesheet" type="text/css" href="/assets/css/media.css">
+    <link rel="stylesheet" type="text/css" href="/assets/js/vendor/jquery.mCustomScrollbar.min.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/assets/js/vendor/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="/assets/js/script.js" defer></script>
     <title>Online Store</title>
 </head>
@@ -46,7 +48,7 @@
                         </li>
                     </ul>
                 </nav>
-                <a href="tel:+771722645555" class="header__phone">+7 7172 264 55 55</a>
+                <a href="tel:+771722645555" class="header__phone">+38 7172 264 55 55</a>
                 <div class="header__buttons">
                     <button class="header__auth">
                         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 285.5 285.5" style="enable-background:new 0 0 285.5 285.5;" xml:space="preserve">
@@ -81,5 +83,5 @@
 
                 <div class="header__burger">
                     <span></span>
-                </div>
+            </div>
         </header>

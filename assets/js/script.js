@@ -1,5 +1,21 @@
 $(function(){
 
+    $(window).on("load", function () {
+        $(".mycustom-scroll").mCustomScrollbar();
+    });
+
+    $(".mycustom-scroll").mCustomScrollbar({
+        axis: "x",              // вертикальный скролл
+        theme: "rounded-dark",  // тема
+        scrollInertia: 20,   // продолжительность прокрутки, значение в миллисекундах
+        // setHeight: "100%", 
+        setWidth: "100%",     // высота блока (переписывает CSS)
+        mouseWheel: {
+            deltaFactor: 300    // кол-во пикселей на одну прокрутку колёсика мыши
+        },
+        // autoDraggerLength: true
+    });
+
     let isMobile = {
         Android: function() {return navigator.userAgent.match(/Android/i);},
         BlackBerry: function() {return navigator.userAgent.match(/BlackBerry/i);},
