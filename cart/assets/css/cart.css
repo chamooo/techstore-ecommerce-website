@@ -60,7 +60,7 @@ html, body {
   margin: 0 0 40px 0;
 }
 .cart__column {
-  width: 700px;
+  min-width: 700px;
   padding: 35px 0;
   border-bottom: 1px solid #e0e0e0;
 }
