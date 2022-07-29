@@ -1,6 +1,6 @@
 <?php 
 require('../configs/connect.php');
-session_start();
+// session_start();
 
 if (!empty($_POST)) {
     $sql = "SELECT * FROM `user` WHERE `email` = '" . $_POST['email'] . "' AND `password` = '" . $_POST['password'] . "'";
@@ -15,7 +15,7 @@ if (!empty($_POST)) {
     } else {
         echo '0';
     }
-    // mysqli_close($conn);
+    mysqli_close($conn);
 }
 
 ?>

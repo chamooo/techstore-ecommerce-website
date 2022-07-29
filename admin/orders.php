@@ -23,7 +23,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/admin/partials/header.php');
                 </button>
             </form>
 
-
             <!-- Topbar Navbar -->
             <ul class="navbar-nav ml-auto">
 
@@ -40,7 +39,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/admin/partials/header.php');
                             <div class="input-group">
                                 <input type="text" class="form-control bg-light border-0 small"
                                     placeholder="Search for..." aria-label="Search"
-                                    aria-describedby="basic-addon2">
+                                    aria-describedby="basic-addon2" name="search">
                                 <div class="input-group-append">
                                     <button class="btn btn-primary" type="button">
                                         <i class="fas fa-search fa-sm"></i>
@@ -57,11 +56,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/admin/partials/header.php');
                     <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?= $user['username'] ?></span>
-                    </a>
-                    <!-- Dropdown - User Information -->
-                    <a  style="position: absolute; top: 35%; left: -70px; width: 100px" href="/functions/logout.php" data-toggle="modal" data-target="#logoutModal">
-                        <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                        Logout
+                        
+                        <a  style="position: absolute; top: 35%; left: -70px; width: 100px" href="/functions/logout.php" data-toggle="modal" data-target="#logoutModal">
+                            <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                            Logout
+                        </a>
                     </a>
                 </li>
 
@@ -72,24 +71,22 @@ require($_SERVER['DOCUMENT_ROOT'] . '/admin/partials/header.php');
 
         <!-- Begin Page Content -->
         <div class="container-fluid">
+
             <!-- Page Heading -->
-            <h1 class="h3 mb-2 text-gray-800">Виробники</h1>
+            <h1 class="h3 mb-2 text-gray-800">Замовлення</h1>
             <br>
             <!-- DataTales Example -->
             <?php
             if(empty($_GET)) {
-                require($_SERVER['DOCUMENT_ROOT'] . '/admin/modules/makers/all.php');
+                require($_SERVER['DOCUMENT_ROOT'] . '/admin/modules/orders/all.php');
             } 
             else {
                 switch ($_GET['page']) {
                     case 'edit':
-                        require($_SERVER['DOCUMENT_ROOT'] . '/admin/modules/makers/edit-page.php');
+                        require($_SERVER['DOCUMENT_ROOT'] . '/admin/modules/orders/edit-page.php');
                         break;
                     case 'delete':
-                        require($_SERVER['DOCUMENT_ROOT'] . '/admin/modules/makers/delete.php');
-                        break;
-                    case 'add':
-                        require($_SERVER['DOCUMENT_ROOT'] . '/admin/modules/makers/create-page.php');
+                        require($_SERVER['DOCUMENT_ROOT'] . '/admin/modules/orders/delete.php');
                         break;
                     default:
                         break;
@@ -106,7 +103,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/admin/partials/header.php');
     <footer class="sticky-footer bg-white">
         <div class="container my-auto">
             <div class="copyright text-center my-auto">
-                <span>Copyright &copy; 2022</span>
+                <span>Copyright &copy; Your Website 2020</span>
             </div>
         </div>
     </footer>
