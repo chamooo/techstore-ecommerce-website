@@ -5,7 +5,7 @@ html, body {
   width: 100%;
 }
 
-.wrapper {
+.cart-wrapper {
   min-height: 100%;
   overflow: hidden;
   display: -webkit-box;
@@ -17,13 +17,13 @@ html, body {
           /* flex-direction: column; */
 }
 
-.content {
+.cart-content {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
 }
 
-.container {
+.cart-container {
   padding: 0 20px;
   max-width: 1250px;
   margin: 0px auto;
@@ -64,7 +64,7 @@ html, body {
   padding: 35px 0;
   border-bottom: 1px solid #e0e0e0;
 }
-.item__row {
+.cart-item__row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -74,16 +74,16 @@ html, body {
   text-decoration: none;
   color: #c2c2c2;
 }
-.item__image {
+.cart-item__image {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 200px;
           flex: 0 0 200px;
 }
-.item__image img {
+.cart-item__image img {
   max-width: 100%;
   max-height: 150px;
 }
-.item__body {
+.cart-item__body {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
@@ -99,7 +99,7 @@ html, body {
           justify-content: space-between;
   padding-left: 25px;
 }
-.item__title {
+.cart-item__title {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -107,7 +107,7 @@ html, body {
   line-height: 30px;
   color: #000000;
 }
-.item__text {
+.cart-item__text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

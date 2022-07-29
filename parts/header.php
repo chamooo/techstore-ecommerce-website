@@ -9,11 +9,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" type="text/css" href="/all-products/assets/css/all-products.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css"> 
     <link rel="stylesheet" type="text/css" href="/assets/css/media.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="assets/js/script.js" defer></script>
+    <script src="/assets/js/script.js" defer></script>
     <title>Online Store</title>
 </head>
 
@@ -60,29 +60,6 @@
                         <span>Увійти</span>
                     </button>
                     <ul class="header__buttons-list">
-                    <!-- <?php
-                        // $sqlUser = "SELECT id, role FROM user WHERE id =" . $_SESSION['user_id'];
-                        // $resultUser = mysqli_query($conn, $sqlUser);
-                        // $userRole = $resultUser->fetch_assoc();
-                        // if (isset($_SESSION['user_id']) && $userRole['role'] != 'admin') { ?>
-                            <style>
-                                .admin-link {
-                                    display: none;
-                                }
-                            </style>
-                        <?php
-                    //  } 
-                     ?>
-                        <?php
-                        // if (!isset($_SESSION['user_id'])) { ?>
-                            <style>
-                                .logout {
-                                    display: none;
-                                }
-                            </style>
-                        <?php
-                    //  } 
-                     ?> -->
                         <li class="admin-link">
                             <a href="/admin/">Адмін</a>
                         </li>
@@ -96,9 +73,6 @@
                         <img src="/assets/img/header/shopping-cart.svg">
                     </a>
                     <div>
-                        <?php
-                        // include_once($_SERVER['DOCUMENT_ROOT'] . '/cart/cart.php') 
-                        ?>
 
                         <p><span> <?php /*$sum['SUM(price)']  */ ?> </span> грн.</p>
                         <p class="arrow-drop"></p>

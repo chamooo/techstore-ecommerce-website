@@ -456,6 +456,7 @@ body {
 	line-height: 23px;
 	color: #2A2D46;
 	margin: 0 0 45px 0;
+	max-width: 490px;
 }
 
 .preview .description a {
@@ -469,6 +470,8 @@ body {
 	color: #FFFFFF;
 	text-align: center;
 	transition: all 0.3s ease 0s;
+	border: 1px solid #EB2D66;
+
 }
 .preview .description a:hover {
 	/* background-color: #ca2f5d; */
@@ -490,10 +493,6 @@ body {
 	/* margin-left: 130px; */
 }
 
-.product img {
-	width: 100%;
-	height: 100%;
-}
 
 .product .bg-gradient {
 	width: 100%;
@@ -504,24 +503,27 @@ body {
  	background: #3145FF;
  	opacity: 0.81;
 }
-
-.product .product-img {
+.header-product-img {
 	position: absolute;
-	top: 30px;
+	top: 100px;
 	left: -100px;
-	height: 80%;
-	width: 80%;
+	max-width: 700px;
+	/* height: 80%;
+	width: 80%; */
+}
+.header-product-img img {
+	
+	width: 50%;
+	height: 50%;
 }
 
 .product .product-description {
 	display: block;
 	position: absolute;
-	bottom: 70px;
-	right: 130px;
-	width: 170px;
-	height: 110px;
+	bottom: 120px;
+	right: 80px;
+	width: 190px;
 }
-
 
 .product .product-description h1 {
 	font-weight: 900;
@@ -534,6 +536,7 @@ body {
 }
 
 .product .product-description p {
+	margin-bottom: 4px;
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 15px;
@@ -545,46 +548,45 @@ body {
 	font-weight: 700;
 	font-size: 12px;
 	line-height: 145.4%;
-
 	color: #FFFFFF;
 }
 
 /* ---------------------------
         HOTSLIDER
 --------------------------- */
-
+.hot-slider {
+	margin: 100px auto;
+	width: fit-content;
+}
 .hot-slider .head {
-	margin-top: 50px;
-	display: inline-block;
+	display: flex;
+	margin: 0 0 30px 0;
 	margin-left: 50px;
-	width: 1000px;
 }
 
 .hot-slider .head h1 {
 	font-weight: 900;
 	font-size: 25px;
 	line-height: 30px;
-
 	color: #2A2D46;
-	display: inline-block;
-	float: left;
 }
 
 .hot-slider .head ul {
 	list-style: none;
-	float: left;
 	margin-top: 25px;
 	margin-left: 90px;
 }
-
+.hot-slider .head a {
+	color: rgb(29, 29, 29);
+}
+.hot-slider .head a:hover {
+	color: rgb(34, 70, 171);
+}
 .hot-slider .head li {
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 15px;
-	/* identical to box height */
-	text-align: center;
 
-	/* Цвет темы */
 	color: #2A2D46;
 
 	float: left;
@@ -599,43 +601,51 @@ body {
 .product-card {
 	position: relative;
 	display: block;
-	width: 230px;
-	height: 410px;
+
+	max-width: 260px;
+	min-height: 720px;
+	max-height: 740px;
+
 	margin: 10px;
-	padding: 20px 40px;
+	padding: 30px 30px;
 	background: white;
-	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
 	float: left;
 }
 
 .product-card h1 {
+	margin-bottom: 15px;
 	font-weight: 900;
 	font-size: 17px;
 	line-height: 21px;
 	color: #2A2D46;
 }
-
+.product-img {
+	min-height: 230px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 .product-card img {
-	max-height: 200px;
-	max-width: 190px;
+	max-height: 210px;
+	max-width: 100%;
 }
+.product-text {
+	min-height: 260px;
 
-.product-card td {
-	font-weight: 400;
-	font-size: 12px;
-	line-height: 19px;
-
-	color: #646986;
+	margin: 30px 0 25px 0;
+	width: 220px;
+	height: fit-content;
 }
-
-.product-card strong {
-	font-weight: 400;
-	font-size: 12px;
-	line-height: 19px;
-
-	color: #2C3BA0;
+.product-text p {
+	font-size: 14px;
+	margin-top: 20px;
+	line-height: 16px;
 }
+.product-text p b {
+	color: #0e4171;
 
+}
 .product-card h3 {
 	font-weight: 900;
 	font-size: 15px;
@@ -644,24 +654,33 @@ body {
 	color: #0C76D8;
 }
 
-.product-card button {
+.product-card a {
+	cursor: pointer;
+	position: absolute;
 	border: none;
 	background: none;
-	position: absolute;
-	bottom: 30px;
+	bottom: 44px;
 	right: 30px;
+	transition: .3s;
+}
+.product-card a:hover {
+	right: 25px;
 }
 
 /* -----------------------------
 		OFFERS
 ----------------------------- */
-
+.offers {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 .offers .card {
-	display: inline-block;
+	overflow: hidden;
 	position: relative;
-	width: 570px;
+	min-width: 530px;
 	height: 425px;
-	margin: 30px;
+	margin: 20px;
 }
 
 .offers img {
@@ -709,7 +728,27 @@ body {
 
 	color: #2A2D46;
 }
+.catalog-btn-container {
+	display: block;
+	margin: 40px 0 40px 10px;
+	
+}
+.catalog-btn {
+	display: inline-block;
+	padding: 10px 30px;
+	
+}
+.catalog-btn h1:hover{
+	color: #3145FF;
+}
+.catalog-btn h1 {
+	font-weight: 900;
+	font-size: 25px;
+	line-height: 30px;
+	color: #2A2D46;
+	transition: .2s;
 
+}
 /* -------------------------
 		FOOTER
 ------------------------- */
